@@ -1,5 +1,6 @@
 
-import 'package:udemy_flutter/models/shop_favorites_model.dart';
+
+import 'package:Salla/models/shop_favorites_model.dart';
 
 class ToggleFavoritesModel {
   ToggleFavoritesModel({

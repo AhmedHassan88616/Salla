@@ -1,12 +1,11 @@
+import 'package:Salla/models/shop_search_model.dart';
+import 'package:Salla/shared/constants/constants.dart';
+import 'package:Salla/shared/endpoints/endpoints.dart';
+import 'package:Salla/shared/network/local/cache_helper.dart';
+import 'package:Salla/shared/network/remote/dio_helper.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:udemy_flutter/models/shop_search_model.dart';
-import 'package:udemy_flutter/shared/constants/constants.dart';
-import 'package:udemy_flutter/shared/endpoints/endpoints.dart';
-import 'package:udemy_flutter/shared/network/local/cache_helper.dart';
-import 'package:udemy_flutter/shared/network/remote/dio_helper.dart';
-
 part 'shop_search_state.dart';
 
 class ShopSearchCubit extends Cubit<ShopSearchStates> {

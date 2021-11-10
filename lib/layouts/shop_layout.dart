@@ -1,9 +1,8 @@
+import 'package:Salla/modules/search_screen/search_screen.dart';
+import 'package:Salla/shared/components/components.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:udemy_flutter/modules/search_screen/search_screen.dart';
-import 'package:udemy_flutter/shared/components/components.dart';
-import 'package:udemy_flutter/shared/constants/constants.dart';
-import 'package:udemy_flutter/shared/network/local/cache_helper.dart';
+
 
 import 'cubit/shop_cubit.dart';
 

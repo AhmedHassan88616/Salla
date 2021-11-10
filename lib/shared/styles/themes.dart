@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:udemy_flutter/shared/styles/colors.dart';
+
+import 'colors.dart';
 
 final darkTheme=ThemeData(
   scaffoldBackgroundColor: HexColor('333739'),

@@ -1,10 +1,8 @@
+import 'package:Salla/shared/components/components.dart';
+import 'package:Salla/shared/network/local/cache_helper.dart';
 import 'package:conditional_builder/conditional_builder.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:udemy_flutter/layouts/shop_layout.dart';
-import 'package:udemy_flutter/shared/components/components.dart';
-import 'package:udemy_flutter/shared/network/local/cache_helper.dart';
-
 import 'cubit/shop_register_cubit.dart';
 
 class ShopRegisterScreen extends StatelessWidget {

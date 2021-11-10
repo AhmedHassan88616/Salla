@@ -1,9 +1,9 @@
+import 'package:Salla/modules/login/shop_login_screen.dart';
+import 'package:Salla/shared/components/components.dart';
+import 'package:Salla/shared/network/local/cache_helper.dart';
+import 'package:Salla/shared/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:udemy_flutter/modules/login/shop_login_screen.dart';
-import 'package:udemy_flutter/shared/components/components.dart';
-import 'package:udemy_flutter/shared/network/local/cache_helper.dart';
-import 'package:udemy_flutter/shared/styles/colors.dart';
 
 class BoardingModel {
   final title;

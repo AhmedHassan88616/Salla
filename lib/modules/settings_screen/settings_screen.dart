@@ -1,9 +1,10 @@
+import 'package:Salla/layouts/cubit/shop_cubit.dart';
+import 'package:Salla/shared/components/components.dart';
+import 'package:Salla/shared/constants/constants.dart';
 import 'package:conditional_builder/conditional_builder.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:udemy_flutter/layouts/cubit/shop_cubit.dart';
-import 'package:udemy_flutter/shared/components/components.dart';
-import 'package:udemy_flutter/shared/constants/constants.dart';
+
 
 class SettingsScreen extends StatelessWidget {
   GlobalKey _formKey = GlobalKey<FormState>();

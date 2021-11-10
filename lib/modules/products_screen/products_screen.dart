@@ -1,12 +1,13 @@
+import 'package:Salla/layouts/cubit/shop_cubit.dart';
+import 'package:Salla/models/shop_categories_model.dart';
+import 'package:Salla/models/shop_home_model.dart';
+import 'package:Salla/shared/components/components.dart';
+import 'package:Salla/shared/styles/colors.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:conditional_builder/conditional_builder.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:udemy_flutter/layouts/cubit/shop_cubit.dart';
-import 'package:udemy_flutter/models/shop_categories_model.dart';
-import 'package:udemy_flutter/models/shop_home_model.dart';
-import 'package:udemy_flutter/shared/components/components.dart';
-import 'package:udemy_flutter/shared/styles/colors.dart';
+
 
 class ProductsScreen extends StatelessWidget {
   @override

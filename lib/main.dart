@@ -1,17 +1,17 @@
+import 'package:Salla/shared/bloc_observer/bloc_server.dart';
+import 'package:Salla/shared/cubit/cubit.dart';
+import 'package:Salla/shared/cubit/states.dart';
+import 'package:Salla/shared/network/local/cache_helper.dart';
+import 'package:Salla/shared/network/remote/dio_helper.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:udemy_flutter/layouts/shop_layout.dart';
-import 'package:udemy_flutter/shared/cubit/cubit.dart';
-import 'package:udemy_flutter/shared/cubit/states.dart';
-import 'package:udemy_flutter/shared/network/local/cache_helper.dart';
-import 'package:udemy_flutter/shared/network/remote/dio_helper.dart';
-import 'package:udemy_flutter/shared/styles/themes.dart';
-import 'package:udemy_flutter/shared/bloc_observer/bloc_server.dart';
 
+
+import 'layouts/shop_layout.dart';
 import 'modules/login/shop_login_screen.dart';
 import 'modules/on_boarding/on_boarding.dart';
+import 'shared/styles/themes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
